@@ -1,7 +1,6 @@
-function showMsg(){
+function showMessage(){
 
-document.getElementById("demo").innerHTML=
-
-"歡迎來到我的個人網站！";
+document.getElementById("msg").innerHTML =
+"謝謝你參觀我的個人網站，希望未來能成為優秀的程式設計師！";
 
 }
