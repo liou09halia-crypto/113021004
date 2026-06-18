@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <title>我的個人網頁</title>
@@ -8,17 +9,35 @@
 
 <body>
 
-<h1>歡迎來到我的個人網站</h1>
+    <div class="container">
 
-<p>我是XXX，目前就讀XXX大學。</p>
+        <h1>歡迎來到我的個人網站</h1>
 
-<button onclick="showMsg()">
-點我
-</button>
+        <h2>自我介紹</h2>
 
-<p id="demo"></p>
+        <p>
+            我是XXX，目前就讀XXX大學。
+            我喜歡程式設計、桌球以及人工智慧，
+            希望未來能持續學習新的技術。
+        </p>
 
-<script src="script.js"></script>
+        <h2>我的興趣</h2>
+
+        <ul>
+            <li>桌球</li>
+            <li>程式設計</li>
+            <li>AI人工智慧</li>
+        </ul>
+
+        <button onclick="showMessage()">
+            點我看更多
+        </button>
+
+        <p id="msg"></p>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
